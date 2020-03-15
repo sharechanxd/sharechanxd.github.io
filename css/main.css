@@ -1162,7 +1162,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #9dffff;
+  background: #ffff18;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2273,10 +2273,17 @@ embed {
   white-space: nowrap;
 }
 body {
-  background-image: url("images/background.jpg");
+  background-image: url("https://www.gamersky.com/showimage/id_gamersky.shtml?http://img1.gamersky.com/upimg/pic/2017/05/04/201705041834163385.jpg");
   height: 100%;
   width: 100%;
   background-repeat: repeat-x;
   background-attachment: fixed;
   background-size: 100% 100%;
+}
+.main-inner {
+  background: #fff;
+  opacity: 0.8;
+}
+.header-inner {
+  opacity: 0.8;
 }
