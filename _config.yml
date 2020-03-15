@@ -99,5 +99,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: 'git'
-  repository: https://github.com/sharechanxd/sharechanxd.github.io
+  repository:
+    github: https://github.com/sharechanxd/sharechanxd.github.io
+    coding: git@e.coding.net:sharechanxd/kimsley.coding.me.git
+    
   branch: master
