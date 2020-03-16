@@ -31,6 +31,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -84,6 +85,7 @@ use_date_for_updated: false
 per_page: 10
 pagination_dir: page
 
+
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
@@ -92,11 +94,44 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins: hexo-generator-feed
 ## Themes: https://hexo.io/themes/
 theme: next
 # avatar: /images/123.jpeg
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+
+
+feed:
+  type: atom #RSS的类型(atom/rss2)
+  path: atom.xml #文件路径,默认是atom.xml/rss2.xml
+  limit: 20 #展示文章的数量,使用0或则false代表展示全部
+  hub:
+  content: #在RSS文件中是否包含内容 ,有3个值 true/false默认不填为false
+  content_limit: 140 #指定内容的长度作为摘要,仅仅在上面content设置为false和没有自定义的描述出现
+  content_limit_delim: ' ' #上面截取描述的分隔符,截取内容是以指定的这个分隔符作为截取结束的标志.在达到规定的内容长度之前最后出现的这个分隔符之前的内容,，防止从中间截断.
+  order_by: -date
+  icon: #icon.png
+
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: node_modules/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  tagMode: false
+  debug: false
+  model:
+    use: live2d-widget-model-shizuku
+  display:
+    position: right
+    width: 200
+    height: 400
+  mobile:
+    show: true
+  react:
+    opacity: 1
+
 deploy:
   type: 'git'
   repository:

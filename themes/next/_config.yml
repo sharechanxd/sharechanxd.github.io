@@ -189,7 +189,7 @@ social:
   Linkedin: https://www.linkedin.com/in/xiao-chen-727ba4149/ || linkedin
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
-  #Twitter: https://twitter.com/yourname || twitter
+  Twitter:  https://twitter.com/Nintend16625011 || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
   #YouTube: https://youtube.com/yourname || youtube
@@ -201,6 +201,7 @@ social_icons:
   GitHub: github
   E-Mail: envelope
   Linkedin: linkedin
+  Twitter: twitter
   icons_only: true
   transition: false
 
@@ -219,9 +220,9 @@ links:
 toc:
   enable: true
   # Automatically add list number to toc.
-  number: true
+  number: false
   # If true, all words will placed on next lines if header width longer then sidebar width.
-  wrap: true
+  wrap: false
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false
   # Maximum heading depth of generated toc.
@@ -287,10 +288,10 @@ reward:
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
-  #Twitter: https://twitter.com/username || twitter
+  Twitter: https://twitter.com/Nintend16625011 || twitter
   #Telegram: https://t.me/channel_name || telegram
   #WeChat: /images/wechat_channel.jpg || wechat
-  #RSS: /atom.xml || rss
+  RSS: /atom.xml || rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -382,13 +383,13 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true
   # Available values: top | bottom
   position: top
   color: "#37c6c0"
@@ -884,10 +885,10 @@ three:
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 # For more information: https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
+  enable: true
   onmobile: true # Display on mobile or not
-  color: "0,0,255" # RGB values, use `,` to separate
-  opacity: 0.5 # The opacity of line: 0~1
+  color: "247,203,128" # RGB values, use `,` to separate
+  opacity: 0.7 # The opacity of line: 0~1
   zIndex: -1 # z-index property of the background
   count: 99 # The number of lines
 
@@ -1039,3 +1040,4 @@ vendors:
 css: css
 js: js
 images: images
+
