@@ -212,10 +212,15 @@
 
       
           <h1 id="测试1"><a href="#测试1" class="headerlink" title="测试1"></a>测试1</h1><p><img src="https://raw.githubusercontent.com/sharechanxd/kimsleyxd/master/blog_files/img/PicGo-Github-PicBed/1.png" alt="logo"></p>
-<p>$$<br>\phi(z)=1-1.2z+0.85 z^{2}<br>$$</p>
-<p>And we can get $\phi_{1}=1.2,\phi_{2}=-0.85,z_{1}=0.7058824+0.8235294i,z_{2}= 0.7058824-0.8235294i$ ,<br>$z_{1}=\bar{z}<em>{2}$<br> and we consider the initial conditions that $\rho(0)=1$ and $\rho(-1)=\frac{\phi</em>{1}}{1-\phi_{2}}=\frac{24}{37}$ .And here we take $\rho(h)=c_{1} z_{1}^{-h}+\bar{c_{2}} z_{2}^{-h}$ . Plug these in and we can get: $\rho(h)=(0.5+0.034749i)(0.7058824+0.8235294i)^{-h}+(0.5-0.034749i)(0.7058824-0.8235294i)^{-h}$ . And we plot the acf:</p>
-<h1 id="测试2"><a href="#测试2" class="headerlink" title="测试2"></a>测试2</h1><p>$$<br>\begin{eqnarray}<br>\nabla\cdot\vec{E} &amp;=&amp; \frac{\rho}{\epsilon_0} \<br>\nabla\cdot\vec{B} &amp;=&amp; 0 \<br>\nabla\times\vec{E} &amp;=&amp; -\frac{\partial B}{\partial t} \<br>\nabla\times\vec{B} &amp;=&amp; \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)<br>\end{eqnarray}<br>$$</p>
-<h2 id="测试3"><a href="#测试3" class="headerlink" title="测试3"></a>测试3</h2>
+<script type="math/tex; mode=display">
+\phi(z)=1-1.2z+0.85 z^{2}</script><p>And we can get $\phi_{1}=1.2,\phi_{2}=-0.85,z_{1}=0.7058824+0.8235294i,z_{2}= 0.7058824-0.8235294i$ ,<br>$z_{1}=\bar{z}_{2}$<br> and we consider the initial conditions that $\rho(0)=1$ and $\rho(-1)=\frac{\phi_{1}}{1-\phi_{2}}=\frac{24}{37}$ .And here we take $\rho(h)=c_{1} z_{1}^{-h}+\bar{c_{2}} z_{2}^{-h}$ . Plug these in and we can get: $\rho(h)=(0.5+0.034749i)(0.7058824+0.8235294i)^{-h}+(0.5-0.034749i)(0.7058824-0.8235294i)^{-h}$ . And we plot the acf:</p>
+<h1 id="测试2"><a href="#测试2" class="headerlink" title="测试2"></a>测试2</h1><script type="math/tex; mode=display">
+\begin{eqnarray}
+\nabla\cdot\vec{E} &=& \frac{\rho}{\epsilon_0} \\
+\nabla\cdot\vec{B} &=& 0 \\
+\nabla\times\vec{E} &=& -\frac{\partial B}{\partial t} \\
+\nabla\times\vec{B} &=& \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)
+\end{eqnarray}</script><h2 id="测试3"><a href="#测试3" class="headerlink" title="测试3"></a>测试3</h2>
       
     </div>
 
@@ -274,16 +279,12 @@
       
           <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
 <h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
       
